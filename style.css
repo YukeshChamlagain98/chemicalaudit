@@ -1,19 +1,41 @@
 body {
-    background-color: aqua;
+    background-color:lightcyan;
     padding: auto;
     margin: auto;
     font-family: sans-serif;
     font-size: large;
+    display: grid;
+    align-content: center;
+    max-width: 1400px;
 }
 
-h1 {color: azure;
-    padding: auto;
+h1 {color:black;
+    padding: 8px;
     margin: auto;
     font-family: sans-serif;
     font-size: large;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: larger;
+    align-items: center;
 }
 
 P {
     font-family: sans-serif;
     padding: auto;
+}
+button {
+    padding: 10px;
+    font-size: small;
+    font-family: sans-serif;
+    margin: auto;
+    border-color: brown;
+    background-color: aqua;
+    text-decoration: underline;
+    
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: blue;
 }
